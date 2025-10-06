@@ -1,0 +1,32 @@
+{
+    "name": "The Real Dark Mode - Your cursor is the flashlight",
+    "short_name": "The Real Dark Mode",
+    "description": "Torch mode dark overlay - spotlight effect that follows your cursor",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "Torch Mode Settings"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "author": "Pankaj Tanwar"
+}
