@@ -19,8 +19,7 @@
         "default_title": "Torch Mode Settings"
     },
     "permissions": [
-        "storage",
-        "tabs"
+        "storage"
     ],
     "icons": {
         "16": "icon.png",
